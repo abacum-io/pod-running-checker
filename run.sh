@@ -107,5 +107,5 @@ while true; do
 	done < $PODS_DISCOVERED_FILE
 	echo "Waiting $WAIT_TIME seconds; timestamp: $(date -u +%Y%m%d%H%M%S)"
 	echo ""
-	sleep $WAIT_TIME
+	sleep "$WAIT_TIME"
 done
